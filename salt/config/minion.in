@@ -1,0 +1,8 @@
+file_client: local
+log_file: $BASE/log/minion
+cachedir: $BASE/cache
+extension_modules: $BASE/modules
+minion_id_caching: False
+file_roots:
+  base:
+    - $BASE
